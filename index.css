@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+   background-color: white;
+   position: fixed;
+   top:0;
+   width: 100%;
+  font-size: 25px;
+}
+
+
+.navbar li
+{
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header
+{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+h1
+{
+    font-size: 60px;
+    font-style:italic;
+}
+
+#face
+{
+    font-size: 25px;
+}
+
+img
+{
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+button
+{
+    padding: 5px;
+}
+
+.main
+{
+    font-size: 100px;
+    margin: 50px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+#bold
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+form
+{
+    margin-left: 100px;
+}
+
+.nostyle ul
+{
+    list-style: none;
+}
+
+.hamza
+{
+    background-image: url('../images/Band Members.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 75px;
+   border-radius: 75%;
+   vertical-align: middle;
+   margin-right: 8px;
+   margin-top: 2px;
+}
